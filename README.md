@@ -45,9 +45,13 @@ npm i react-router-dom
 
 ## React Tinder Cards
 
-Apparently someone built a npm package known as `react-tinder-cards`. Why not use it then and carry on :p. To install do the following, however, google and check accordingly as the version might get updated. 
+Apparently someone built a npm package known as `react-tinder-cards`. Why not use it then and carry on :p. To install do the following, however, google and check accordingly as the version might get updated.
 
 ```
 npm i react-tinder-card@5.3.1
 ```
+
 > Here used specific version because it was giving errors
+
+- Big One : 1hr 6 min
+- Small One : 53 min 51 sec
