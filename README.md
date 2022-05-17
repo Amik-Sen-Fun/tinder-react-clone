@@ -53,5 +53,4 @@ npm i react-tinder-card@5.3.1
 
 > Here used specific version because it was giving errors
 
-- Big One : 1hr 6 min
-- Small One : 53 min 51 sec
+> Note: Always use `keys` in React because it makes your app fast. Allows Re-ender a list efficiently a list.
