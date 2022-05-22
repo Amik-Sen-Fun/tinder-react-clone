@@ -54,3 +54,8 @@ npm i react-tinder-card@5.3.1
 > Here used specific version because it was giving errors
 
 > Note: Always use `keys` in React because it makes your app fast. Allows Re-ender a list efficiently a list.
+
+
+# Building the backend of the Application in Node
+
+To use the functionalities of ES6 we need to write the following in the `package.json` of the tinder backend

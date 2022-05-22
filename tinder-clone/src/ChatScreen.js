@@ -9,14 +9,14 @@ function ChatScreen() {
         {
             name: "Dakota",
             message: "Hey!!",
-            image: "https://drive.google.com/uc?export=view&id=1pQpvRRvUuv1o5FJSdvIpldDfyc3V_2rq"
+            image: "https://drive.google.com/uc?export=view&id=1pQpvRRvUuv1o5FJSdvIpldDfyc3V_2rq",
 
         },{
             name: "Dakota",
             message: "How are you?",
-            image: "https://drive.google.com/uc?export=view&id=1pQpvRRvUuv1o5FJSdvIpldDfyc3V_2rq"
+            image: "https://drive.google.com/uc?export=view&id=1pQpvRRvUuv1o5FJSdvIpldDfyc3V_2rq",
         },{
-            message:"I am fine, how are you?"
+            message:"I am fine, how are you?",
         }
     ]);
     const handleSend = e => {
