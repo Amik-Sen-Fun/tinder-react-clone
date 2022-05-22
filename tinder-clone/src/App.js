@@ -4,6 +4,7 @@ import Header from "./Header";
 import TinderCards from "./TinderCards";
 import SwipeButtons from "./SwipeButtons";
 import Chats from "./Chats";
+import ChatScreen from './ChatScreen';
 
 import { BrowserRouter as Router, Routes as Switch, Route} from "react-router-dom";
 
@@ -14,6 +15,13 @@ function App() {
       <Router>
         {/*Everything inside Router has access to routes*/}
         <Switch>
+          {/* Individual chat options  */}
+        <Route path="/chats/:person"element = {
+          <>
+          <Header backButton="/chat"/>
+          <ChatScreen/>
+          </>
+        }/>
       {/* We need one landing page for the chat functionality */}
         <Route path="/chats"element = {
           <>
